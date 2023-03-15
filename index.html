@@ -2,25 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me</title>
+    <title>Car Survey</title>
     <link rel="stylesheet" href="css/style.css">
 
   </head>
 
-  <br >
-    
-
+  <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    
-      
     <div id="main1">
-      <h1 id="title" class="center">Survey Form</h1>
-      <p id="description">
-        We have a Yell website that I have now found out belongs to them. The site is tastemidlands.co.uk</br>
-         I need a copy with some alterations.I have no idea about costs, we are a new company that are</br>
-          struggling, so price is important.
-
-      </p>
+      <div id="header">
+        <h1 id="title" class="center">Car Survey Form</h1>
+        <p id="description">
+          We're conducting a car survey to better understand the needs and preferences of car buyers.</br>
+          Thank you for your time and participation!
+        </p>
+      </div>
     
       <form id="survey-form" >
         <label id="name-label" for="name">Name</label>
@@ -30,7 +26,7 @@
         <input id="email" type="email" placeholder="Write your email" required/></br></br>
         
         <label id="number-label" for="number">Age</label>
-        <input id="number" type="number" placeholder="Input Your Age Between 8-50" min="8" max="50"/></br></br>
+        <input id="number" type="number" placeholder="8-50" min="8" max="50"/></br></br>
         
         <label for="dropdown">Gender</label>
         <select id="dropdown">
@@ -39,12 +35,14 @@
         </select></br></br>
 
         <label>What Type of Car do you prefer ?</label></br>
-        <input type="radio" id="sedan" name="type_of_car" value="sedan">
-        <label for="sedan">HTML</label><br>
-        <input type="radio" id="suv" name="type_of_car" value="suv">
-        <label for="suv">SUV</label><br>
-        <input type="radio" id="family_car" name="type_of_car" value="family_car">
-        <label for="family_car">Family Car</label><br></br>
+        <div id="type_of_car">
+          <input type="radio" id="sedan" name="type_of_car" value="sedan">
+          <label for="sedan">Sedan</label><br>
+          <input type="radio" id="suv" name="type_of_car" value="suv">
+          <label for="suv">SUV</label><br>
+          <input type="radio" id="family_car" name="type_of_car" value="family_car">
+          <label for="family_car">Family Car</label><br></br>
+        </div>
 
         <label>What Type of Car do you prefer ?</label></br>
         <input type="radio" id="sedan" name="type_of_car" value="sedan">
