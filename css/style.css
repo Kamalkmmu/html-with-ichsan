@@ -1,11 +1,16 @@
 body{
-    background-color: wheat;
+    background-color: #00203FFF;
     font-size: large;
+    padding: 20px;
+}
+#formm{
+    background-color: #ADEFD1FF;
 }
 #main1{
     width: 75%;
     margin: auto;
     padding:10px 20px 20px 20px ;
+    color: white;
 }
 
 #header{
@@ -19,6 +24,8 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: #00203FFF;
+    padding: 25px;
 }
 
 #submit{
