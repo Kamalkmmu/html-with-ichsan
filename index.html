@@ -7,12 +7,12 @@
 
   </head>
 
-  <body >
+  <br >
     
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
-      <h1 id="title">Fork Me! FCC: Test Suite Template</h1>
+      <h1 id="title">Survey Form</h1>
       <p id="description">
         We have a Yell website that I have now found out belongs to them. The site is tastemidlands.co.uk</br>
          I need a copy with some alterations.I have no idea about costs, we are a new company that are</br>
@@ -21,10 +21,46 @@
       </p>
     
       <form id="survey-form">
-        <input id="name" type="text"/></br>
-        <input id="email" type="email"/>
-        <input id="number" type="number" min="8" max="10"/>
+        <label id="name-label" for="name">Name</label>
+        <input id="name" type="text" placeholder="Write your name" required/></br>
+        
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" placeholder="Write your email" required/></br>
+        
+        <label id="number-label" for="number">Age</label>
+        <input id="number" type="number" placeholder="Input Your Age Between 8-50" min="8" max="50"/></br>
+        
+        <label for="dropdown">Gender</label>
+        <select id="dropdown">
+          <option>Male</option>
+          <option>Female</option>
+        </select></br></br>
 
+        <label>What Type of Car do you prefer ?</label></br>
+        <input type="radio" id="sedan" name="type_of_car" value="sedan">
+        <label for="sedan">HTML</label><br>
+        <input type="radio" id="suv" name="type_of_car" value="suv">
+        <label for="suv">SUV</label><br>
+        <input type="radio" id="family_car" name="type_of_car" value="family_car">
+        <label for="family_car">Family Car</label><br>
+
+        <label>What Type of Car do you prefer ?</label></br>
+        <input type="radio" id="sedan" name="type_of_car" value="sedan">
+        <label for="sedan">HTML</label><br>
+        <input type="radio" id="suv" name="type_of_car" value="suv">
+        <label for="suv">SUV</label><br>
+        <input type="radio" id="family_car" name="type_of_car" value="family_car">
+        <label for="family_car">Family Car</label></br></br>
+
+        <!-- checkbox -->
+
+        <label>Any feedback you want to give for car manufacturer ?</label></br>
+        <textarea>
+
+        </textarea></br></br>
+
+
+        <button id="submit" type="submit">Submit</button>
       </form>
     <div id="main1">
 
