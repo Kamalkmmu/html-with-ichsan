@@ -1,4 +1,12 @@
 .main1{
     background-image: url('car.jpg' ) ;
     background-size: auto;
+    text-align: center;
+}
+#survey-form{
+    background-color: aqua;
+}
+#center{
+    text-align: center;
+    margin: auto;
 }
